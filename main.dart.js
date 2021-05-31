@@ -49004,7 +49004,7 @@ $S:36}
 F.yH.prototype={
 N:function(a,b){var s=C.wi.h(0,900)
 s.toString
-return new S.q0(new F.BK(null),"Flutter Demo",X.a4T(null,"Product Sans",s),!1,null)}}
+return new S.q0(new F.BK(null),"Retro Music Player",X.a4T(null,"Product Sans",s),!1,null)}}
 F.BK.prototype={
 N:function(a,b){var s=null,r=K.bj(b).b,q=T.mL(s,s,24),p=K.IW(24),o=t.fQ
 p=T.a4E(H.c([q,T.mL(new T.wF(p,C.h8,new U.pB(M.aee(s,s,new L.ov("assets/ic_launcher.png",s,s)),s),s),42,42),new T.ex(C.oE,L.Bs("Retro Music Player",K.bj(b).at.f.i6(C.j),s),s)],o),C.ox,C.po)
