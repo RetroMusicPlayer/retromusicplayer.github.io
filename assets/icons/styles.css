@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'IconFont';
+  src: url('iconfont.woff') format('woff'),
+    url('iconfont.svg#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*='icon-']:before {
+  display: inline-block;
+  font-family: 'IconFont';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-github:before {
+  content: '\0041';
+}
+
+.icon-google-play:before {
+  content: '\0042';
+  float: right;
+}
+
+.icon-palette:before {
+  content: '\0043';
+}
+
+.icon-compass:before {
+  content: '\0044';
+}
+
+.icon-palette-swatch:before {
+  content: '\0045';
+}
+
+.icon-text-box:before {
+  content: '\0046';
+}
+
+.icon-tag-text:before {
+  content: '\0047';
+}
+
+.icon-playlist-music:before {
+  content: '\0048';
+}
+
+.icon-web:before {
+  content: '\0049';
+}
+
+.icon-plus-circle:before {
+  content: '\004a';
+}
+
+.icon-download:before {
+  content: '\004b';
+  float: right;
+}
+
+.icon-chevron-left:before {
+  content: '\004c';
+  float: right;
+  padding-right: 3px;
+}
+
+.icon-chevron-right:before {
+  content: '\004d';
+  float: right;
+  padding-left: 3px;
+}
+
+.icon-instagram:before {
+  content: '\004e';
+}
+
+.icon-email:before {
+  content: '\004f';
+}
+
+.icon-telegram:before {
+  content: '\0050';
+}
+
+.icon-dribble-big-logo:before {
+  content: '\0051';
+}
+
+.icon-twitter:before {
+  content: '\0052';
+}
+
+.icon-chevron-up:before {
+  content: '\0053';
+}
+
+.icon-chevron-down:before {
+  content: '\0054';
+}
+
+.icon-translate:before {
+  content: '\0055';
+}
+
+.icon-linkedin:before{
+  content:'\0056';
+}
