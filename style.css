@@ -14,7 +14,7 @@
   --accent: #7c4dff;
   --primary: #622cf7;
   --secondary: #ffffffb3;
-  --text-prim: #fff
+  --text-prim: #ffffff;
 }
 
 .animate {
@@ -1164,4 +1164,12 @@ body {
 
 .contact-page .card-wrapper:hover {
   background-color: #424242;
+}
+
+.about-team .card-title {
+  color: var(--text-prim) !important;
+}
+
+.about-team .card-secondary {
+  color: var(--secondary) !important;
 }
