@@ -2,6 +2,7 @@
 
 @font-face {
   font-family: 'Product Sans';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/ProductSans-Regular.ttf) format('ttf');
