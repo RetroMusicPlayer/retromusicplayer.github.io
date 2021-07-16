@@ -289,14 +289,17 @@ nav .section-btn {
 
 .row {
   display: -webkit-flex;
+  flex-wrap: wrap;
   -webkit-flex-wrap: wrap
 }
 
 .justify-content-center {
+  justify-content: center;
   -webkit-justify-content: center
 }
 
 .card-wrapper {
+  flex: 1;
   -webkit-flex: 1;
   background-color: #303134;
   padding: 25px;
