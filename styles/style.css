@@ -5,7 +5,7 @@
   font-display: swap;
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/ProductSans-Regular.ttf) format('ttf');
+  src: url(../assets/fonts/ProductSans-Regular.ttf) format('truetype');
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased
 }
