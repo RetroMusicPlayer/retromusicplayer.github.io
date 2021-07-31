@@ -1173,3 +1173,7 @@ body {
 .about-team .card-secondary {
   color: var(--secondary) !important;
 }
+
+.navbar {
+  backdrop-filter: blur(10px);
+}
