@@ -12,7 +12,7 @@
 
 :root {
   --accent: #7c4dff;
-  --primary: #622cf7;
+  --primary: #7340ff;
   --secondary: #ffffffb3;
   --text-prim: #ffffff;
 }
@@ -505,7 +505,7 @@ a.text-white:hover {
 }
 
 .section-btn a.btn:not(.btn-form) {
-  border-radius: 100px
+  border-radius: 5px
 }
 
 a,
