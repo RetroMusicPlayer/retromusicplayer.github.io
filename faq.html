@@ -93,7 +93,8 @@
                                         <p class="panel-text display-7">You can opt-in for the beta build by clicking on
                                             this link:
                                             <a href="https://play.google.com/apps/testing/code.name.monkey.retromusic">Register
-                                                for beta</a></p>
+                                                for beta</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +118,7 @@
                                             purchase/restore the pro license. <br> <br>
 
                                             If you already installed, remove all other accounts except the one with
-                                            which you purchased premium. Then restore the purchase.</a></p>
+                                            which you purchased premium. Then restore the purchase.</p>
                                     </div>
                                 </div>
                             </div>
@@ -134,43 +135,446 @@
                                 <div id="collapse3" class="panel-collapse collapse">
                                     <div class="panel-body text-white">
                                         <p class="panel-text display-7 text-white">
-                                            <p>
-                                                <h5>There are two methods for how to get offline synced lyrics.</h5>
-                                            </p>
-                                            <p><strong>Method 1:</strong></p>
-                                            <ul>
-                                                <li>Find the time stamped lyrics for your songs which don't have lyrics
-                                                    already. A time stamped lyrics looks like this, <code>[00:04:02]
+                                        <p>
+                                        <h5>There are two methods for how to get offline synced lyrics.</h5>
+                                        </p>
+                                        <p><strong>Method 1:</strong></p>
+                                        <ul>
+                                            <li>Find the time stamped lyrics for your songs which don't have lyrics
+                                                already. A time stamped lyrics looks like this, <code>[00:04:02]
                                                         Some lyrics text</code> for example.</li>
-                                                <li>Copy these time stamped lyrics.</li>
-                                                <li>Open retro music and head to the song synced lyrics editor.</li>
-                                                <li>Paste the lyrics there normally and exit the editor</li>
-                                                <li>Open lyrics and you should see your time stamped lyrics there.</li>
-                                            </ul>
-                                            <p><strong>Method 2:</strong></p>
-                                            <ul>
-                                                <li>Find the <code>.lrc</code> files for your songs which doesn't have
-                                                    lyrics already.</li>
-                                                <li>A <code>.lrc</code> is like a text file which contains the time
-                                                    stamped lyrics for example, <code>[00:04:02] Some lyrics text</code>
-                                                </li>
-                                                <li>Now you have to rename the file you created in this way:
-                                                    <code>&lt;song_name&gt; - &lt;artist_name&gt;.lrc</code> or for
-                                                    better matching copy the <code>&lt;song_name&gt;</code> and the
-                                                    <code>&lt;artist_name&gt;</code> from the tag editor and then rename
-                                                    the file.</li>
-                                                <li>Now paste the LRC files to the following path :
-                                                    <code>/sdcard/Retromusic/lyrics/</code>
-                                                    Here sdcard is your internal storage.</li>
-                                            </ul>
-                                            <blockquote>
-                                                <p>If you want to skip to particular time stamp, simply scroll to the
-                                                    time stamp from where you want to start from and a &#39;Play&#39;
-                                                    icon will appear left to the particular stamp. Tap on play button to
-                                                    play from there.</p>
-                                            </blockquote>
+                                            <li>Copy these time stamped lyrics.</li>
+                                            <li>Open retro music and head to the song synced lyrics editor.</li>
+                                            <li>Paste the lyrics there normally and exit the editor</li>
+                                            <li>Open lyrics and you should see your time stamped lyrics there.</li>
+                                        </ul>
+                                        <p><strong>Method 2:</strong></p>
+                                        <ul>
+                                            <li>Find the <code>.lrc</code> files for your songs which doesn't have
+                                                lyrics already.</li>
+                                            <li>A <code>.lrc</code> is like a text file which contains the time
+                                                stamped lyrics for example, <code>[00:04:02] Some lyrics text</code>
+                                            </li>
+                                            <li>Now you have to rename the file you created in this way:
+                                                <code>&lt;song_name&gt; - &lt;artist_name&gt;.lrc</code> or for
+                                                better matching copy the <code>&lt;song_name&gt;</code> and the
+                                                <code>&lt;artist_name&gt;</code> from the tag editor and then rename
+                                                the file.
+                                            </li>
+                                            <li>Now paste the LRC files to the following path :
+                                                <code>/sdcard/Retromusic/lyrics/</code>
+                                                Here sdcard is your internal storage.
+                                            </li>
+                                        </ul>
+                                        <blockquote>
+                                            <p>If you want to skip to particular time stamp, simply scroll to the
+                                                time stamp from where you want to start from and a &#39;Play&#39;
+                                                icon will appear left to the particular stamp. Tap on play button to
+                                                play from there.</p>
+                                        </blockquote>
                                         </p>
 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why isn't the artist's
+                                                image downloading?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse4" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Last.fm has disabled the download of artist's
+                                            images for the time being, whether functionality for this will be restored
+                                            in future is uncertain. <br><br> So we have moved to deezer API for artist
+                                            images which have very less artists in their database and you might not able
+                                            to see covers on every artist profiles.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: How do I change the
+                                                theme?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse5" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Themes can be selected from the Look & Feel
+                                            section of the settings.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Equailizer is very laggy
+                                                and unstable or I am getting "No equalizer found" error. why?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse6" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">The Retro music in-built equalizer was removed
+                                            updates ago so the only equalizer you will have by your OEM or android which
+                                            aren't made by us and have no control over them. So you can report those
+                                            issues to your OEM so that they can provide a fix in next updates. <br><br>
+                                            If you are seeing "No Equalizer Found" in your device, this means your
+                                            device doesn't have stock equalizer MusicFx Equalizer. You can try using <a
+                                                href="https://drive.google.com/file/d/1_1bpsn6roeEyElGKikbU39lVKUH8O3xp/view?usp=drivesdk">this
+                                                one</a>. Its made by AEX ROM developers.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why aren't last added
+                                                songs showing?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse7" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Settings -&gt; Other -&gt; Last added playlist
+                                            interval -&gt; Select an option from the list.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: How do I enable
+                                                fullscreen lockscreen controls?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse8" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Settings -&gt; Personalize -&gt; Fullscreen
+                                            controls -&gt; Enable (this will only be visible when songs are playing from
+                                            Retro Music).</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why are gallery or random
+                                                pictures showing up as album art?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse9" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Settings -&gt; Images -&gt; Ignore media store
+                                            covers -&gt; Enable </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Which file types are
+                                                supported?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse10" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Retro Music uses the native media player that
+                                            comes with your Android phone, so as long as a file type is supported by
+                                            your phone, it's supported by Retro Music.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why is my device slowing
+                                                down when I'm using the app?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse11" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Retro Music is image intensive, it keeps images
+                                            in the cache for quick loading.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: The title "Retro Music"
+                                                is showing on the top of the app, how can i fix this?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse12" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">If you are facing this issue, please clear the
+                                            app's cache and data.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why my playlist/playlist
+                                                songs keep disappearing?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse13" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">If your playlist are disappearing from your
+                                            storage, that means you are not using latest version. Please update to
+                                            latest version as Retro Music now uses custom database for playlist. Before
+                                            updating your app to the latest version, please make sure you have backed up
+                                            all your playlist and saved them as file. <br><br> Previously, Retro Music
+                                            used android media store system for storing playlist and its database. In
+                                            order to prevent playlist from getting disappeared, always save your
+                                            playlist as file. Unfortunately, the disappeared playlist cannot be
+                                            recovered and there's nothing we can do about it.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: My app has started
+                                                crashing after updating from Play Store. How do I fix it?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse14" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Sorry, settings have changed internally. Please
+                                            try <strong>clear data of the app</strong>. If it doesn't work, reinstalling
+                                            fresh from play store should help.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why has all the text gone
+                                                white/dissapeared?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse15" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Change the theme to Black or Dark and change it
+                                            back to what you had before.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why some of my songs are
+                                                not showing in my library?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse16" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7 text-white">
+                                        <p>
+                                        <h5>Having some problems with music files not showing in your library? Try these
+                                            solutions:</h5>
+                                        </p>
+                                        <ul>
+                                            <li>Try checking that the audio files are not less than 30 seconds. If so,
+                                                go to Settings -&gt; Other and put <strong>"Filter Song
+                                                    Duration"</strong> to zero.</li>
+                                            <li>If it doesn't work, check if your music folder contains a
+                                                "<code>.nomedia</code>" file. Delete it if you have it. It's a hidden
+                                                file so make sure to enable hidden files/folders in your file manager.
+                                            </li>
+                                            <li>Try manually scanning the media folder or reboot to refresh the media
+                                                store. The scan option is available in the folder tab. To access the
+                                                folder tab, go to settings -&gt; personalize -&gt; library categories
+                                                and enable folders. If it isn't visible, click reset.</li>
+                                            <li>If it still doesn't work and your audio files are stored on an SD card.,
+                                                try moving them to internal memory then back to SD card.</li>
+                                            <li>If that doesn't work, download the phonograph music app and let that app
+                                                scan your music.</li>
+                                            <li>At last resort where none of the above options work, clear "media
+                                                storage" app's data (not cache). To find this app, head to system
+                                                settings -&gt; apps -&gt; enable system apps and clear data.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: How do I export and
+                                                import playlist?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse17" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7 text-white">
+                                        <p><strong>For Exporting playlists: </strong></p>
+                                        <ul>
+                                            <li>In your built-in music player, there should be an option to save those
+                                                playlist as file. Save them and import from file manager by opening it
+                                                into retro music.</li>
+                                            <li>To export from Retro Music, simply tap on <strong>save playlist as
+                                                    file</strong>.</li>
+                                        </ul>
+
+                                        <p><strong>For Importing playlists: </strong></p>
+                                        <ul>
+                                            <li>Retro Music will automatically detect any playlist file when that
+                                                playlist file is stored in InternalStorage/Playlist. However, if it
+                                                doesn't, just open "file manager" and open that playlist file with Retro
+                                                Music. </li>
+                                            <li>For restoring playlists, the location of songs must be same in both
+                                                Playlist file and in your storage. For example, your music is in
+                                                "Internalstorage/Music" and playlist file has songs location
+                                                "Internalstorage/Songs". Then it will not going to work since both these
+                                                location are different.</li>
+                                        </ul>
+
+                                        <blockquote>
+                                            <p>Note that those playlists must be of your offline music only since retro
+                                                music is an offline music player, not an online music player. So if your
+                                                playlist is of online music, it can't be opened on other offline
+                                                players.</p>
+                                        </blockquote>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: Why does my library shows
+                                                song files twice or no song at all?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse18" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7 text-white">
+                                        <h5>If you are seeing duplication of songs in the library or no songs at all,
+                                            then it's because of Media Store issue which got affected by some other app.
+                                            <br><br> To fix this:
+                                        </h5>
+                                        <ul>
+                                            <li>Head to your device settings</li>
+                                            <li>Open up "Apps & notifications" (This name depends from ROM to ROM)</li>
+                                            <li>Find 'Media storage' app and clear storage (both data and cache) of it.
+                                            </li>
+                                            <li>Then open Retro Music app and manually scan your music from your
+                                                storage.</li>
+                                            <li>Reboot the device to refresh media store (Not sure if this is necessary)
+                                            </li>
+                                        </ul>
+
+                                        <blockquote>
+                                            <p>NOTE: Don't panic when you will open Retro Music and see "Zero" songs
+                                                there in the library.
+                                                It's because you cleared Media Store which is responsible for
+                                                recognising files on your
+                                                device.</p>
+                                        </blockquote>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: I can't find folder menu
+                                                anymore after latest update?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse19" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Head to settings -&gt; personalise. And select
+                                            folders from "library categories". If there is option of folders, tap on
+                                            reset and select folders.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <a role="button" class="collapsed panel-title" data-toggle="collapse"
+                                        href="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                        <h6 class="panel-title-edit mb-0 display-7"><strong>Q: After updating the app to
+                                                latest version, font got removed. Why?</strong>
+                                        </h6>
+                                        <span class="sign icon-font icon-chevron-down"></span>
+                                    </a>
+                                </div>
+                                <div id="collapse20" class="panel-collapse collapse">
+                                    <div class="panel-body text-white">
+                                        <p class="panel-text display-7">Retro Music's font have now been replaced with
+                                            system font now, which means the default font your system uses will be used
+                                            by Retro too. It fixes all font related issues you used to face/are facing
+                                            in the app. <br><br> If you think the font looks ugly, then you just need to
+                                            change the default font from your Android settings (or use any Magisk
+                                            module). If you can't, there's nothing we can do about it.</p>
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +598,8 @@
                 <div class="col-12">
                     <p class="mb-0 display-7">
                         Made with ❤️ by <a href="https://daksh.eu.org" class="text-primary" target="_blank">Daksh
-                            P. Jain</a>, hosted on <a href="https://github.com/RetroMusicPlayer/retromusicplayer.github.io">GitHub</a>.</p>
+                            P. Jain</a>, hosted on <a
+                            href="https://github.com/RetroMusicPlayer/retromusicplayer.github.io">GitHub</a>.</p>
                 </div>
             </div>
         </div>
