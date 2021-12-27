@@ -310,6 +310,7 @@ nav .section-btn {
 .row .card-wrapper {
   position: relative;
   top: 0px;
+  transition: 0.35s all ease-in-out 0s;
 }
 .row .card-wrapper:hover {
   top: -4px;
@@ -599,6 +600,7 @@ a {
   margin-top: 2rem;
   top: 0px;
   position: relative;
+  transition: 0.35s all ease-in-out 0s;
 }
 
 .about-team .card-wrap:hover {
