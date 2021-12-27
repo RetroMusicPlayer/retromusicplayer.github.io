@@ -307,6 +307,16 @@ nav .section-btn {
   padding-top: 35px
 }
 
+.row .card-wrapper {
+  position: relative;
+  top: 0px;
+}
+.row .card-wrapper:hover {
+  top: -4px;
+  transition: 0.35s all ease-in-out 0s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.315), 0 6px 6px rgba(0, 0, 0, 0.205);
+} 
+
 .carousel-control {
   z-index: 10;
   display: -webkit-flex
@@ -586,7 +596,15 @@ a {
 .about-team .card-wrap {
   background: #303134;
   border-radius: 4px;
-  margin-top: 2rem
+  margin-top: 2rem;
+  top: 0px;
+  position: relative;
+}
+
+.about-team .card-wrap:hover {
+  top: -4px;
+  transition: 0.35s all ease-in-out 0s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.315), 0 6px 6px rgba(0, 0, 0, 0.205);
 }
 
 @media (max-width:991px) {
