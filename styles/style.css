@@ -1052,7 +1052,8 @@ body {
 .gallery .carousel-indicators {
   position: absolute;
   bottom: 0;
-  margin-bottom: 1.5rem !important
+  margin-bottom: 1.5rem !important;
+  width: 100%;
 }
 
 .gallery .carousel-indicators li {
