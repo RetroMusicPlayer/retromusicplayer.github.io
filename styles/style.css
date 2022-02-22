@@ -1016,10 +1016,6 @@ body {
   opacity: 1
 }
 
-.gallery .container .carousel-indicators {
-  margin-bottom: 3px
-}
-
 .gallery .carousel-control {
   top: 50%;
   width: 60px;
@@ -1052,7 +1048,7 @@ body {
 .gallery .carousel-indicators {
   position: absolute;
   bottom: 0;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: -3rem;
   width: 100%;
 }
 
@@ -1061,9 +1057,9 @@ body {
   height: 15px;
   width: 15px;
   max-height: 15px;
-  margin: 3px;
+  margin: 2px;
   background-color: rgba(0, 0, 0, .5);
-  border: 2px solid #fff;
+  border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   opacity: .5;
   transition: all .3s
@@ -1071,7 +1067,9 @@ body {
 
 .gallery .carousel-indicators li.active,
 .gallery .carousel-indicators li:hover {
-  opacity: .9
+  opacity: .9;
+  background-color: var(--accent);
+  border: 2px solid #FFFFFF
 }
 
 .gallery .carousel-indicators li::after,
@@ -1085,7 +1083,11 @@ body {
   }
 }
 
-
+@media (min-width:769px) and (max-width:992px) {
+  .gallery .carousel-indicators li {
+    padding: 0 7px 0 7px;
+  }
+}
 
 .navbar-dropdown {
   left: 0;
