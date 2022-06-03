@@ -12,7 +12,7 @@
 
 :root {
   --accent: #7c4dff;
-  --primary: #7340ff;
+  --primary: #7340ffe4;
   --secondary: #ffffffb3;
   --text-prim: #ffffff;
 }
@@ -519,20 +519,18 @@ a.text-white:hover {
   border-radius: 5px
 }
 
-a,
-a:hover {
-  color: var(--accent)
-}
-
 body {
   overflow-x: hidden
 }
 
 a {
-  transition: color .6s
+  transition: color .6s;
+  color: var(--accent);
 }
 
-
+a:hover {
+  color: var(--primary);
+}
 
 .homepage-main {
   padding-top: 8rem;
